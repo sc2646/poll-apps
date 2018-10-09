@@ -11,11 +11,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-/**
- * User: nataliechen (nataliechen@coupang.com)
- * Date: 10/5/18
- * Time: 11:30 AM
- */
 public class ModelMapper {
     // mapping the Poll entity to PollResponse payload which contains a bunch of information like Poll's creator name,
     // Vote counts of each choice in the Poll, the choice that the currently logged in user has voted for, is the Poll expired etc.

@@ -3,11 +3,6 @@ package com.example.polls.payload;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.NotNull;
 
-/**
- * User: nataliechen (nataliechen@coupang.com)
- * Date: 10/5/18
- * Time: 11:24 AM
- */
 public class PollLength {
     @NotNull
     @Max(7)
